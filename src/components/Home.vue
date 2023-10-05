@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="home">
     <div class="P1Landing">
       <img id="P1" src="../assets/Images/HeaderTorn1.png">
     </div>
@@ -31,9 +31,6 @@
 <script>
 export default {
   name: 'HomeView',
-  props: {
-    msg: String
-  }
 }
 </script>
 

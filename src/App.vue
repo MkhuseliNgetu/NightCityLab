@@ -1,23 +1,23 @@
 <template>
   <div id="app">
     <HeaderView></HeaderView>
-    <HomeView> This is a snake</HomeView>
+    <HomeView></HomeView>
+    <WorkInProgressView v-show="IsSelected"></WorkInProgressView>
     <br/>
-    <StatusView></StatusView>
   </div>
   
 </template>
 
 <script>
 import HomeView from './components/Home.vue'
-import StatusView from './components/Status.vue'
 import HeaderView from './components/Header.vue'
+import WorkInProgressView from './components/WorkInProgress.vue'
 export default {
   name: 'App',
   components: {
     HeaderView,
     HomeView,
-    StatusView,
+    WorkInProgressView,
   }
 }
 </script>

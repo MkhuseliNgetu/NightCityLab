@@ -2,13 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import Vuesax from 'vuesax'
 
-import 'vuesax/dist/vuesax.css' //Vuesax styles
-import 'boxicons'
+import 'vuesax/dist/vuesax.css'
 
 import { initializeApp } from "firebase/app";
 
 Vue.use(Vuesax)
-
 
 Vue.config.productionTip = false
 

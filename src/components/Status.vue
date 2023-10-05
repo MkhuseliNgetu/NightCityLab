@@ -3,7 +3,6 @@
         <div class="container">
             
         </div>
-
     </div>
 </template>
 
@@ -17,14 +16,11 @@ export default {
 template #text{
     font-family: Better Font;
     color: black;
-  
 }
 .status {
     position: absolute;
     left: 0%;
     width: 5%;
     bottom: 12.5%;
-
-   
 }
 </style>
