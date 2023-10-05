@@ -26,9 +26,6 @@ export default {
 html{
   background-image: url('./assets/Images/Background\ \(Sketchcoast\).jpg');
   background-size: cover;
-  
-
-
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

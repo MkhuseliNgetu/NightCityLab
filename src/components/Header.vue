@@ -5,19 +5,11 @@
         <template #left>
           <p> Night City Lab</p>
         </template>
-        <vs-navbar-item id="OuterHeaven"><label>Outer Heaven</label></vs-navbar-item>
-        <vs-navbar-item id="NightCityDashboard"><label>Night City</label></vs-navbar-item>
-        <vs-navbar-item id="DevolOneDashboard"><label>DevolOne</label> </vs-navbar-item>
-        <vs-navbar-item id="Portifolo"><label>Portifolio</label></vs-navbar-item>
-        <vs-navbar-item id="OnDemandServices"><label>On Demand Services</label></vs-navbar-item>
         <template #right>
-          <vs-avatar circle size="30">
-
-           <!-- <template #icons>
-            <box-icon type='logo' name='linkedin-square'></box-icon>
-            <box-icon type='logo' name='github'></box-icon>
-            </template>-->
-          </vs-avatar>
+        <vs-navbar-item id="OuterHeaven" href="https://www.outerhaven.azurewebsites.net"><label>Outer Heaven</label></vs-navbar-item>
+        <vs-navbar-item id="NightCityDashboard" href="https://www.nightcitydash.nightcitylab.co.za"><label>Night City</label></vs-navbar-item>
+        <vs-navbar-item id="DevolOneDashboard" href="https://www.devolone.nightcitylab.co.za"><label>DevolOne</label> </vs-navbar-item>
+        <vs-navbar-item id="Portifolo" href="https://github.com/MkhuseliNgetu"><label>Portifolio</label></vs-navbar-item>
         </template>
       </vs-navbar>
     </div>
@@ -35,7 +27,7 @@ p{
   color: white;
 }
 label{
-    font-size: 1.75rem;
+    font-size: 2rem;
     color: white;
     font-family: Better Font;
 }
