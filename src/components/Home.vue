@@ -21,9 +21,9 @@
     <div class="P7Landing">
       <img id="P7" src="../assets/Images/HeaderTorn7.png">
     </div>
-<div class="LandingContent">
+  <div class="LandingContent">
     <h1>Night City Lab</h1>
-</div>
+  </div>
 
   </div>
 </template>
@@ -95,12 +95,12 @@ a {
 }
 .P4Landing{
   position: absolute;
-  right: 4.5%;
+  right: 4.0%;
   width: 25%;
   bottom: 0%;
 }
 .P4Landing img{
-  width: 120%;
+  width: 116%;
   height: auto;
   object-fit: cover;
 }
@@ -142,7 +142,7 @@ a {
 }
 .LandingContent {
     position: absolute;
-    right: 38%;
+    right: 37%;
     width: 20%;
     top: 10%;
 }

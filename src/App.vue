@@ -2,8 +2,8 @@
   <div id="app">
     <HeaderView></HeaderView>
     <HomeView></HomeView>
-    <WorkInProgressView v-show="IsSelected"></WorkInProgressView>
     <br/>
+    <StatusView></StatusView>
   </div>
   
 </template>
@@ -11,14 +11,14 @@
 <script>
 import HomeView from './components/Home.vue'
 import HeaderView from './components/Header.vue'
-import WorkInProgressView from './components/WorkInProgress.vue'
+import StatusView from './components/Status.vue'
 export default {
   name: 'App',
   components: {
     HeaderView,
     HomeView,
-    WorkInProgressView,
-  }
+    StatusView
+  },
 }
 </script>
 
@@ -28,19 +28,22 @@ html{
   background-size: cover;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: black;
   margin-top: 60px;
   
 }
 @font-face {
-    font-family: "Better Font";
-    src: local("Better Font");
-    src: url("./assets/Fonts/Better-Font.otf") format("opentype");
-    font-size: xx-large;
+  font-family: "Better Font";
+  src: local("Better Font");
+  src: url("./assets/Fonts/Better-Font.otf") format("opentype");
+  font-size: xx-large;
+}
+@font-face {
+  font-family: "Fonte Nihon Condensada";
+  src: local("Fonte Nihon Condensada");
+  src: url("./assets/Fonts/Fonte Nihon Condensada.ttf") format("truetype");
+  font-size: xx-large;
 }
 
 
