@@ -1,36 +1,50 @@
 <template>
   <div id="app">
+    <div id="Main">
     <HeaderView></HeaderView>
     <HomeView></HomeView>
-    <br/>
-    <StatusView></StatusView>
+    <Status></Status>
+    </div>
+    <div id="ProjectOne">
+      <Status></Status>
+      <OuterHeaven></OuterHeaven>
+    </div>
+    <div id="ProjectTwo">
+      <OperationNocturneOPN313></OperationNocturneOPN313>
+      <Status></Status>
+    </div>
   </div>
-  
 </template>
 
 <script>
 import HomeView from './components/Home.vue'
 import HeaderView from './components/Header.vue'
-import StatusView from './components/Status.vue'
+import Status from './components/Status.vue'
+import OuterHeaven from './components/OuterHeaven.vue'
+import OperationNocturneOPN313 from './components/OperationNocturneOPN313.vue'
 export default {
   name: 'App',
   components: {
     HeaderView,
+    Status,
     HomeView,
-    StatusView
+    OuterHeaven,
+    OperationNocturneOPN313,
   },
 }
 </script>
 
 <style>
 html{
-  background-image: url('./assets/Images/Background\ \(Sketchcoast\).jpg');
+  background-image: url('./assets/Images/Main/Background\ \(Sketchcoast\).jpg');
   background-size: cover;
 }
 #app {
   text-align: center;
   color: black;
   margin-top: 60px;
+  overflow: scroll;
+  max-width: 100%;
   
 }
 @font-face {
@@ -45,7 +59,24 @@ html{
   src: url("./assets/Fonts/Fonte Nihon Condensada.ttf") format("truetype");
   font-size: xx-large;
 }
-
+@font-face {
+  font-family: "Porter Sans Block";
+  src: local("Porter Sans Block");
+  src: url("./assets/Fonts/Porter-Sans-Block.otf") format("opentype");
+  font-size: xx-large;
+}
+@font-face {
+  font-family: "Cyberpunk";
+  src: local("Cyberpunk");
+  src: url("./assets/Fonts/Cyberpunk.otf") format("opentype");
+  font-size: xx-large;
+}
+@font-face {
+  font-family: "MGS2";
+  src: local("MGS2");
+  src: url("./assets/Fonts/MGS2.ttf") format("truetype");
+  font-size: xx-large;
+}
 
 
 </style>

@@ -1,25 +1,25 @@
 <template>
   <div class="home">
     <div class="P1Landing">
-      <img id="P1" src="../assets/Images/HeaderTorn1.png">
+      <img id="P1" src="../assets/Images/Main/HeaderTorn1.png">
     </div>
     <div class="P2Landing">
-      <img id="P2" src="../assets/Images/HeaderTorn2.png">
+      <img id="P2" src="../assets/Images/Main/HeaderTorn2.png">
     </div>
     <div class="P3Landing">
-      <img id="P3" src="../assets/Images/HeaderTorn3.png">
+      <img id="P3" src="../assets/Images/Main/HeaderTorn3.png">
     </div>
     <div class="P4Landing">
-      <img id="P4" src="../assets/Images/HeaderTorn4.png">
+      <img id="P4" src="../assets/Images/Main/HeaderTorn4.png">
     </div>
     <div class="P5Landing">
-      <img id="P5" src="../assets/Images/HeaderTorn5.png">
+      <img id="P5" src="../assets/Images/Main/HeaderTorn5.png">
     </div>
     <div class="P6Landing">
-      <img id="P6" src="../assets/Images/HeaderTorn6.png">
+      <img id="P6" src="../assets/Images/Main/HeaderTorn6.png">
     </div>
     <div class="P7Landing">
-      <img id="P7" src="../assets/Images/HeaderTorn7.png">
+      <img id="P7" src="../assets/Images/Main/HeaderTorn7.png">
     </div>
   <div class="LandingContent">
     <h1>Night City Lab</h1>

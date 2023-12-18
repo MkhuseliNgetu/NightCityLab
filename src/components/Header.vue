@@ -6,9 +6,7 @@
           <p>Night City Lab</p>
         </template>
         <template #right>
-        <vs-navbar-item id="OuterHeaven" href="https://outerhaven.azurewebsites.net" ><label>Outer Heaven</label></vs-navbar-item>
-        <vs-navbar-item id="Themba" href="https://themba.nightcitylab.co.za"><label>Themba</label></vs-navbar-item>
-        <vs-navbar-item id="NightCityDashboard" href="https://snapshots.raintank.io/dashboard/snapshot/6j6M5Fls5JPA9Oqk2By513y6qutVa4jK"><label>Night City Dashboard</label></vs-navbar-item>
+        <vs-navbar-item id="NightCityDashboard" href="https://snapshots.raintank.io/dashboard/snapshot/6j6M5Fls5JPA9Oqk2By513y6qutVa4jK"><label>Dashboard</label></vs-navbar-item>
         <vs-navbar-item id="Portifolo" href="https://github.com/MkhuseliNgetu"><label>Portifolio</label></vs-navbar-item>
         </template>
       </vs-navbar>
