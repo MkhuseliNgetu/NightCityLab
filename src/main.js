@@ -6,6 +6,7 @@ import 'vuesax/dist/vuesax.css'
 
 import { initializeApp } from "firebase/app";
 
+
 Vue.use(Vuesax)
 
 Vue.config.productionTip = false

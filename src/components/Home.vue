@@ -26,6 +26,7 @@
   </div>
 
   </div>
+  
 </template>
 
 <script>
@@ -60,8 +61,14 @@ li {
 a {
   color: #42b983;
 }
+.home{
+  min-width: 1920px;
+  min-height: 1080px;
+  max-width: 3840px;
+  max-height: 2160px;
+}
 .P1Landing{
-  position: absolute;
+  position: fixed;
   left: 0%;
   width: 25%;
   top: 0%;
@@ -72,7 +79,7 @@ a {
   object-fit: cover;
 }
 .P2Landing{
-  position: absolute;
+  position: fixed;
   left: 0%;
   width: 25%;
   bottom: 0%;
@@ -83,7 +90,7 @@ a {
   object-fit: cover;
 }
 .P3Landing{
-  position: absolute;
+  position: fixed;
   left: 40%;
   width: 25%;
   bottom: 0%;
@@ -94,7 +101,7 @@ a {
   object-fit: cover;
 }
 .P4Landing{
-  position: absolute;
+  position: fixed;
   right: 4.0%;
   width: 25%;
   bottom: 0%;
@@ -106,7 +113,7 @@ a {
 }
 
 .P5Landing{
-  position: absolute;
+  position: fixed;
   right: 45%;
   width: 25%;
   bottom: 40%;
@@ -118,7 +125,7 @@ a {
   transform: rotate(-295deg);
 }
 .P6Landing{
-  position: absolute;
+  position: fixed;
   right: 40%;
   width: 25%;
   bottom: 0%;
@@ -130,7 +137,7 @@ a {
   transform: rotate(-295deg);
 }
 .P7Landing{
-  position: absolute;
+  position: fixed;
   right: 15%;
   width: 25%;
   bottom: 40%;
@@ -141,9 +148,16 @@ a {
   object-fit: cover;
 }
 .LandingContent {
-    position: absolute;
-    right: 37%;
-    width: 20%;
-    top: 10%;
+  position: fixed;
+  right: 37%;
+  width: 20%;
+  top: 10%;
+}
+::-webkit-scrollbar{
+  width:5px;
+  background-color:#000;
+}
+::-webkit-scrollbar-thumb{
+  background: transparent;
 }
 </style>

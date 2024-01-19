@@ -20,8 +20,8 @@
       <h1>Outer<br/>Heaven</h1>
 
       <vs-button :active="active == 0" @click="active = 0" block color="#000000" size="xl" href="https://github.com/MkhuseliNgetu/OuterHeaven" style="left:20%;">
-        <template #animate>
-          <i class='bx bx-home-alt' color="#FFFFFFF" ></i>Shop at OuterHeaven
+        <template>
+          <i class='bx bx-shopping-bag' color="#FFFFFFF"></i> &ensp;Shop at OuterHeaven
         </template>
       </vs-button>
     </div>
@@ -47,6 +47,12 @@ p{
   font-size: 1rem;
   left:25%;
 }
+.OuterHeaven{
+  min-width: 1920px;
+  min-height: 1080px;
+  max-width: 3840px;
+  max-height: 2160px;
+}
 .LandingContent{
   position: absolute;
   left: 0.5%;
@@ -57,7 +63,7 @@ p{
   position: absolute;
   right: 3.59%;
   width: 25%;
-  bottom: -112.5%;
+  bottom: -109%;
 }
 
 .OuterHeavenLandingImageOne img{
@@ -69,7 +75,7 @@ p{
   position: absolute;
   right: 36%;
   width: 25%;
-  bottom: -112.5%;
+  bottom: -109%;
 }
 .OuterHeavenLandingImageTwo img{
   width: 50%;
@@ -93,7 +99,7 @@ p{
   position: absolute;
   left: 0%;
   width: 25%;
-  bottom: -112.5%;
+  bottom: -109.5%;
 }
 .OuterHeavenLandingImageFour img{
   width: 50%;
@@ -105,7 +111,7 @@ p{
   position: absolute;
   left: 26%;
   width: 25%;
-  bottom: -77.5%;
+  bottom: -73.5%;
   transform: rotate(-315deg);
 }
 .OuterHeavenLandingImageFive img{

@@ -1,23 +1,72 @@
 <template>
     <div class="header">
     <div class="center examplex">
-      <vs-navbar center-collapsed style="background-color: transparent; font-size: x-large;" >
+      <vs-navbar center-collapsed style="background-color: transparent; font-size: x-large;">
+        <!--Left side of navigation bar-->
         <template #left>
           <p>Night City Lab</p>
+         
         </template>
-        <template #right>
-        <vs-navbar-item id="NightCityDashboard" href="https://snapshots.raintank.io/dashboard/snapshot/6j6M5Fls5JPA9Oqk2By513y6qutVa4jK"><label>Dashboard</label></vs-navbar-item>
-        <vs-navbar-item id="Portifolo" href="https://github.com/MkhuseliNgetu"><label>Portifolio</label></vs-navbar-item>
+        <!--Right side of navigation bar-->
+        <template #right> 
+        <vs-navbar-item id="EskomScheduleUpdate" style="padding: 2px;">
+          <vs-button icon color="danger" @click="GetSchedules"><i class='bx bxs-calendar'></i>Update Schedule</vs-button>
+        </vs-navbar-item>
+        <vs-navbar-item id="NightCityDashboard" style="padding: 2px;">
+          <vs-button icon color="rgb(0, 38, 84)" gradient @click=GetDashboards href="https://snapshots.raintank.io/dashboard/snapshot/mlQMss8btldDDGPtdKs6LEiPWRzYQJpz">
+            <i class='bx bxs-dashboard'></i>Dashboard
+          </vs-button>
+        </vs-navbar-item>
+        <vs-navbar-item id="GrafanaUpdate" style="padding: 2px;">
+          <vs-button color="rgb(59,222,200)" gradient><i class='bx bx-network-chart'></i>Update Dashboard</vs-button>
+        </vs-navbar-item>
+        <vs-navbar-item id="Portifolo" style="padding: 2px;">
+          <vs-button icon color="dark" href="https://github.com/MkhuseliNgetu"><i class='bx bxl-github'></i>My Portifolo</vs-button>
+        </vs-navbar-item>
+        <vs-navbar-item id="SocialMedia" style="padding: 2px;"> 
+          <vs-button icon color="linkedin" href="https://www.linkedin.com/in/mkhuseli-ngetu-137174284/" ><i class='bx bxl-linkedin'></i>My Social</vs-button>
+        </vs-navbar-item>
         </template>
-      </vs-navbar>
 
+      </vs-navbar>
     </div>
 </div>
 </template>
-<script>
-  export default {
-  name: 'HeaderView',
 
+<script>
+import axios from 'axios'
+
+
+/*const RequestOptions = {
+  headers: {
+     HEADER: ''
+  },
+  withCredentials: false,
+  auth: {
+    username: 'n/a',
+    password: 'n/a'
+  },
+  data: {
+    token: 'n/a',
+  }
+};*/
+export default {
+  name: 'HeaderView',
+  data() {
+    return {
+      Dashboards: null,
+      Cron: '5 * * * *',
+    }
+  },
+  methods: {
+    async GetDashboards() {
+      this.Schedules = await axios.get('https://nclb:3333').then((BackendResponse) => {
+        this.Dashboards = BackendResponse;
+      }).catch((BackEndError) =>{
+        this.Dashboards = BackEndError;
+      });
+    },
+  },
 }
 </script>
 <style scoped>

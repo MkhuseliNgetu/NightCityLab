@@ -1,5 +1,6 @@
 <template>
     <div class="OperationNocturneOPN313">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <div class="OperationNocturneOPN313LandingOne">
         <img id="OperationNocturneOPN313LandingImageOne" src="../assets/Images/OperationNocturneOPN313/HeadersPromoOne.png">
       </div>
@@ -28,8 +29,8 @@
 
       <div class="LandingInput">
         <vs-button :active="active == 0" @click="active = 0" block color="#000000" size="xl" href="https://github.com/MkhuseliNgetu/Operation-Nocturne-OPN313">
-        <template #animate>
-          <i class='bx bx-home-alt' color="#FFFFFFF" ></i> Remember the basics of CQC
+        <template>
+          <i class='bx bx-game' color="#FFFFFFF"></i> &ensp; Remember the basics of CQC
         </template>
       </vs-button>
       </div>
@@ -75,6 +76,12 @@ p{
   font-size: 1rem;
   left:25%;
 }
+.OperationNocturneOPN313{
+  min-width: 1920px;
+  min-height: 1080px;
+  max-width: 3840px;
+  max-height: 2160px;
+}
 .LandingContent{
   position: absolute;
   left: 0.5%;
@@ -97,7 +104,7 @@ p{
   position: absolute;
   right: 3.59%;
   width: 25%;
-  bottom: -225.4%;
+  bottom: -218.3%;
 }
 
 .OperationNocturneOPN313LandingImageOne img{
@@ -109,7 +116,7 @@ p{
   position: absolute;
   right: 36%;
   width: 25%;
-  bottom: -225.4%;
+  bottom: -218.3%;
 }
 .OperationNocturneOPN313LandingImageTwo img{
   width: 50%;
@@ -121,7 +128,7 @@ p{
   position: absolute;
   left: 0%;
   width: 25%;
-  bottom: -166%;
+  bottom: -161%;
 }
 .OperationNocturneOPN313LandingImageThree img{
   width: 50%;
@@ -133,7 +140,7 @@ p{
   position: absolute;
   left: 0%;
   width: 25%;
-  bottom: -226.5%;
+  bottom: -218.7%;
 }
 .OperationNocturneOPN313LandingImageFour img{
   width: 50%;
@@ -145,7 +152,7 @@ p{
   position: absolute;
   left: 26%;
   width: 25%;
-  bottom: -190.5%;
+  bottom: -187.5%;
   transform: rotate(-315deg);
 }
 .OperationNocturneOPN313LandingImageFive img{

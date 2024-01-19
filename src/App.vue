@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <div id="Main">
     <HeaderView></HeaderView>
     <HomeView></HomeView>
@@ -38,6 +40,7 @@ export default {
 html{
   background-image: url('./assets/Images/Main/Background\ \(Sketchcoast\).jpg');
   background-size: cover;
+  overflow-x: hidden; 
 }
 #app {
   text-align: center;
@@ -45,7 +48,6 @@ html{
   margin-top: 60px;
   overflow: scroll;
   max-width: 100%;
-  
 }
 @font-face {
   font-family: "Better Font";
