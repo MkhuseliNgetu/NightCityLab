@@ -5,15 +5,15 @@
         <!--Left side of navigation bar-->
         <template #left>
           <p>Night City Lab</p>
-         
+          
         </template>
         <!--Right side of navigation bar-->
         <template #right> 
         <vs-navbar-item id="EskomScheduleUpdate" style="padding: 2px;">
-          <vs-button icon color="danger" @click="GetSchedules"><i class='bx bxs-calendar'></i>Update Schedule</vs-button>
+        
         </vs-navbar-item>
         <vs-navbar-item id="NightCityDashboard" style="padding: 2px;">
-          <vs-button icon color="rgb(0, 38, 84)" gradient @click=GetDashboards href="https://snapshots.raintank.io/dashboard/snapshot/mlQMss8btldDDGPtdKs6LEiPWRzYQJpz">
+          <vs-button icon color="rgb(0, 38, 84)" gradient @click=GetDashboards href="https://snapshots.raintank.io/dashboard/snapshot/Og2qbaplXuUvEYMT48qjOxR4VgIlHwQ0">
             <i class='bx bxs-dashboard'></i>Dashboard
           </vs-button>
         </vs-navbar-item>
@@ -34,39 +34,9 @@
 </template>
 
 <script>
-import axios from 'axios'
 
-
-/*const RequestOptions = {
-  headers: {
-     HEADER: ''
-  },
-  withCredentials: false,
-  auth: {
-    username: 'n/a',
-    password: 'n/a'
-  },
-  data: {
-    token: 'n/a',
-  }
-};*/
 export default {
   name: 'HeaderView',
-  data() {
-    return {
-      Dashboards: null,
-      Cron: '5 * * * *',
-    }
-  },
-  methods: {
-    async GetDashboards() {
-      this.Schedules = await axios.get('https://nclb:3333').then((BackendResponse) => {
-        this.Dashboards = BackendResponse;
-      }).catch((BackEndError) =>{
-        this.Dashboards = BackEndError;
-      });
-    },
-  },
 }
 </script>
 <style scoped>
