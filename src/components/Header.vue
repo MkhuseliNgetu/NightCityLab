@@ -37,6 +37,7 @@
 
 export default {
   name: 'HeaderView',
+  
 }
 </script>
 <style scoped>
