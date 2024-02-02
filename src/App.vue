@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <div id="Main">
     <HeaderView></HeaderView>
@@ -25,7 +24,7 @@ import Status from './components/Status.vue'
 import OuterHeaven from './components/OuterHeaven.vue'
 import OperationNocturneOPN313 from './components/OperationNocturneOPN313.vue'
 export default {
-  name: 'App',
+  name: 'NightCityLab',
   components: {
     HeaderView,
     Status,

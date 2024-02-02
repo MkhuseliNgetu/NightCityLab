@@ -13,7 +13,7 @@
         
         </vs-navbar-item>
         <vs-navbar-item id="NightCityDashboard" style="padding: 2px;">
-          <vs-button icon color="rgb(0, 38, 84)" gradient @click=GetDashboards href="https://snapshots.raintank.io/dashboard/snapshot/Og2qbaplXuUvEYMT48qjOxR4VgIlHwQ0">
+          <vs-button icon color="rgb(0, 38, 84)" gradient href="https://snapshots.raintank.io/dashboard/snapshot/nilWRogPd3cVCsPQ5E9Hsoy2twuY3xEn">
             <i class='bx bxs-dashboard'></i>Dashboard
           </vs-button>
         </vs-navbar-item>
