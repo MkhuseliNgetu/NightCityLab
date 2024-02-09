@@ -32,6 +32,10 @@
 <script>
 export default {
   name: 'HomeView',
+  metaInfo: {
+      title: 'NightCityLab',
+      titleTemplate: '%s | NightCityLab'
+    }
 }
 </script>
 
