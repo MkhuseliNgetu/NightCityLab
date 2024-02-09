@@ -3,11 +3,15 @@ import App from './App.vue'
 import Vuesax from 'vuesax'
 
 import 'vuesax/dist/vuesax.css'
+import VueCookies from 'vue-cookies'
 
 import { initializeApp } from "firebase/app";
 
-
 Vue.use(Vuesax)
+Vue.use(require('vue-cookies'))
+
+Vue.use(VueCookies, { expires: '1h', path: '/', domain: 'nightcitylab.co.za', secure: '', sameSite: 'Lax'})
+
 
 Vue.config.productionTip = false
 

@@ -68,7 +68,7 @@ a {
   max-height: 2160px;
 }
 .P1Landing{
-  position: fixed;
+  position: absolute;
   left: 0%;
   width: 25%;
   top: 0%;
@@ -79,7 +79,7 @@ a {
   object-fit: cover;
 }
 .P2Landing{
-  position: fixed;
+  position: absolute;
   left: 0%;
   width: 25%;
   bottom: 0%;
@@ -90,7 +90,7 @@ a {
   object-fit: cover;
 }
 .P3Landing{
-  position: fixed;
+  position: absolute;
   left: 40%;
   width: 25%;
   bottom: 0%;
@@ -101,7 +101,7 @@ a {
   object-fit: cover;
 }
 .P4Landing{
-  position: fixed;
+  position: absolute;
   right: 4.0%;
   width: 25%;
   bottom: 0%;
@@ -113,7 +113,7 @@ a {
 }
 
 .P5Landing{
-  position: fixed;
+  position: absolute;
   right: 45%;
   width: 25%;
   bottom: 40%;
@@ -125,7 +125,7 @@ a {
   transform: rotate(-295deg);
 }
 .P6Landing{
-  position: fixed;
+  position: absolute;
   right: 40%;
   width: 25%;
   bottom: 0%;
@@ -137,7 +137,7 @@ a {
   transform: rotate(-295deg);
 }
 .P7Landing{
-  position: fixed;
+  position: absolute;
   right: 15%;
   width: 25%;
   bottom: 40%;
@@ -148,7 +148,7 @@ a {
   object-fit: cover;
 }
 .LandingContent {
-  position: fixed;
+  position: absolute;
   right: 37%;
   width: 20%;
   top: 10%;

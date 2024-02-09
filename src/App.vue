@@ -4,15 +4,12 @@
     <div id="Main">
     <HeaderView></HeaderView>
     <HomeView></HomeView>
-    <Status></Status>
     </div>
     <div id="ProjectOne">
-      <Status></Status>
       <OuterHeaven></OuterHeaven>
     </div>
     <div id="ProjectTwo">
       <OperationNocturneOPN313></OperationNocturneOPN313>
-      <Status></Status>
     </div>
   </div>
 </template>
@@ -20,14 +17,12 @@
 <script>
 import HomeView from './components/Home.vue'
 import HeaderView from './components/Header.vue'
-import Status from './components/Status.vue'
 import OuterHeaven from './components/OuterHeaven.vue'
 import OperationNocturneOPN313 from './components/OperationNocturneOPN313.vue'
 export default {
   name: 'NightCityLab',
   components: {
     HeaderView,
-    Status,
     HomeView,
     OuterHeaven,
     OperationNocturneOPN313,
