@@ -5,7 +5,7 @@
         <!--Left side of navigation bar-->
         <template #left>
           <p>Night City Lab</p>
-          
+       
         </template>
 
         <vs-alert gradient color="rgb(199,21,133)" style="left:95%;" :hidden-content.sync="hidden">
@@ -26,14 +26,14 @@
             <i class='bx bxs-dashboard'></i>Dashboard
           </vs-button>
         </vs-navbar-item>
-        <vs-navbar-item id="GrafanaUpdate" style="padding: 2px;">
-          <vs-button color="rgb(59,222,200)" gradient><i class='bx bx-network-chart'></i>Update Dashboard</vs-button>
-        </vs-navbar-item>
         <vs-navbar-item id="Portifolo" style="padding: 2px;">
-          <vs-button icon color="dark" href="https://github.com/MkhuseliNgetu"><i class='bx bxl-github'></i>My Portifolo</vs-button>
+          <vs-button icon color="dark" href="https://github.com/MkhuseliNgetu"><i class='bx bxl-github'></i>GitHub</vs-button>
         </vs-navbar-item>
         <vs-navbar-item id="SocialMedia" style="padding: 2px;"> 
-          <vs-button icon color="linkedin" href="https://www.linkedin.com/in/mkhuseli-ngetu-137174284/" ><i class='bx bxl-linkedin'></i>My Social</vs-button>
+          <vs-button icon color="linkedin" href="https://www.linkedin.com/in/mkhuseli-ngetu-137174284/" ><i class='bx bxl-linkedin'></i>Linkedin</vs-button>
+        </vs-navbar-item>
+        <vs-navbar-item id="PrivateDashboard" style="padding: 2px;"> 
+          <vs-button color="rgb(179,238,238)" href="https://yorha-automation-01.web.app/api/auth/login"><i class='bx bx-log-in-circle'></i>Login</vs-button>
         </vs-navbar-item>
         </template>
 
