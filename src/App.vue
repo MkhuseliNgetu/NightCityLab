@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" onload="createWindow(500, 300)" >
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <div id="Main">
     <HeaderView></HeaderView>
@@ -11,6 +11,9 @@
     <div id="ProjectTwo">
       <OperationNocturneOPN313></OperationNocturneOPN313>
     </div>
+    <div id="ProjectThree">
+      <Themba></Themba>
+    </div>
   </div>
 </template>
 
@@ -19,6 +22,7 @@ import HomeView from './components/Home.vue'
 import HeaderView from './components/Header.vue'
 import OuterHeaven from './components/OuterHeaven.vue'
 import OperationNocturneOPN313 from './components/OperationNocturneOPN313.vue'
+import Themba from './components/Themba.vue'
 export default {
   name: 'NightCityLab',
   components: {
@@ -26,7 +30,22 @@ export default {
     HomeView,
     OuterHeaven,
     OperationNocturneOPN313,
+    Themba,
   },
+  data(){
+    return{
+
+    }
+  },
+  methods: {
+    createWindow(src, width, height){
+    var win = window.open(src, "_new", "width="+width+",height="+height);
+    win.addEventListener("resize", function(){
+        console.log("Resized");
+		win.resizeTo(width, height);
+    });
+  }
+  }
 
 }
 </script>
@@ -74,6 +93,11 @@ html{
   src: url("./assets/Fonts/MGS2.ttf") format("truetype");
   font-size: xx-large;
 }
-
+@font-face {
+  font-family: "Montreal";
+  src: local("Montreal");
+  src: url("./assets/Fonts/montrealdemo.otf") format("opentype");
+  font-size: xx-large;
+}
 
 </style>

@@ -1,6 +1,5 @@
 <template>
     <div class="OperationNocturneOPN313">
-      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
       <div class="OperationNocturneOPN313LandingOne">
         <img id="OperationNocturneOPN313LandingImageOne" src="../assets/Images/OperationNocturneOPN313/HeadersPromoOne.png">
       </div>
@@ -86,7 +85,7 @@ p{
   position: absolute;
   left: 0.5%;
   width: 25%;
-  bottom: -207.5%;
+  bottom: -202.5%;
 }
 .LandingTitle{
   position: relative;
