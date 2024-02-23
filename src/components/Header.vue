@@ -22,7 +22,7 @@
           <vs-button icon color="danger" v-on:click="GetDashboards()"><i class='bx bxs-calendar'></i>Update Schedule</vs-button>
         </vs-navbar-item>
         <vs-navbar-item id="NightCityDashboard" style="padding: 2px;">
-          <vs-button icon color="rgb(0, 38, 84)" gradient href="https://snapshots.raintank.io/dashboard/snapshot/6gYBgqPDH4pFdYQnw3XBiaY9B0arL034">
+          <vs-button icon color="rgb(0, 38, 84)" gradient href="https://snapshots.raintank.io/dashboard/snapshot/zb9QKMCNYfvqXakD3es0Uuoq3pWgFX6E">
             <i class='bx bxs-dashboard'></i>Dashboard
           </vs-button>
         </vs-navbar-item>
