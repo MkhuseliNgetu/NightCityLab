@@ -21,11 +21,12 @@
         <vs-navbar-item id="EskomScheduleUpdate" style="padding: 2px;">
           <vs-button icon color="danger" v-on:click="GetDashboards()"><i class='bx bxs-calendar'></i>Update Schedule</vs-button>
         </vs-navbar-item>
-        <vs-navbar-item id="NightCityDashboard" style="padding: 2px;">
+        <!---Under Investigation - Local.snapshotstank.io is somehow not available?-->
+       <!--<vs-navbar-item id="NightCityDashboard" style="padding: 2px;">
           <vs-button icon color="rgb(0, 38, 84)" gradient href="https://snapshots.raintank.io/dashboard/snapshot/z2tOnWaTV3i2GILKXNlGXvg7oKfssPW1">
             <i class='bx bxs-dashboard'></i>Dashboard
           </vs-button>
-        </vs-navbar-item>
+        </vs-navbar-item>-->
         <vs-navbar-item id="Portifolo" style="padding: 2px;">
           <vs-button icon color="dark" href="https://github.com/MkhuseliNgetu"><i class='bx bxl-github'></i>GitHub</vs-button>
         </vs-navbar-item>
